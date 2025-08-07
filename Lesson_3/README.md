@@ -84,10 +84,6 @@ SELECT
 FROM products
 WHERE category_id = 3;
 ```
-**Ответ**:  
-| min_price | avg_price | max_price |  
-|-----------|-----------|-----------|  
-| 10        | 37        | 43        |  
 
 **Задание 2**:  
 > Уникальные должности клиентов из Великобритании.  
@@ -96,8 +92,6 @@ SELECT COUNT(DISTINCT contact_title)
 FROM customers 
 WHERE country = 'UK';
 ```
-**Ответ**: `3` (пример: `Owner`, `Sales Manager`).  
-
 ---
 
 #### **7. Вопросы для самопроверки**  
