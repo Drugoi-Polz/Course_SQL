@@ -37,11 +37,12 @@
   - Увеличить шрифт: `Ctrl` + `+`
   - Уменьшить шрифт: `Ctrl` + `-`
   - Запустить запрос: `Ctrl` + `Enter`
-  - 
-Иерархия базы Northwind:
-Northwind
-  public
-    Таблицы
+
+##### Иерархия базы Northwind:
+
+- Northwind
+  - public
+    - Таблицы:
       - categories
       - customers
       - employees
@@ -49,6 +50,7 @@ Northwind
       - orders
       - products
       - ...
+
 ---
 
 #### **4. Базовые запросы**  
