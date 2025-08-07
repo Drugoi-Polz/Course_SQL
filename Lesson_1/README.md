@@ -34,9 +34,21 @@
   Пароль: 123456sql@  
   ```  
 - **Горячие клавиши**:  
-  - Увеличить шрифт: `Ctrl` + `+`  
-  - Запустить запрос: `Ctrl` + `Enter`  
-
+  - Увеличить шрифт: `Ctrl` + `+`
+  - Уменьшить шрифт: `Ctrl` + `-`
+  - Запустить запрос: `Ctrl` + `Enter`
+  - 
+Иерархия базы Northwind:
+Northwind
+  public
+    Таблицы
+      - categories
+      - customers
+      - employees
+      - order_details
+      - orders
+      - products
+      - ...
 ---
 
 #### **4. Базовые запросы**  
