@@ -84,9 +84,9 @@ ORDER BY contact_name;
   **Результат**:  
   | contact_name      | country |  
   |-------------------|---------|  
-  | Annette Roulet    | France  |  
-  | Carine Schmitt    | France  |  
-  | Daniel Tonini     | France  |  
+  | Имя Фамилия       | Страна  |  
+  | Имя Фамилия       | Страна  |  
+  | Имя Фамилия       | Страна  |  
 
 ---
 
@@ -99,8 +99,6 @@ FROM customers
 WHERE country = 'USA' 
   AND contact_title = 'Marketing Assistant';
 ```
-**Ответ**: `Margaret Peacock` (пример из базы Northwind).  
-
 **Задание 2**:  
 > Товары дороже $100 или "Chai".  
 ```sql
@@ -108,8 +106,6 @@ SELECT product_name, unit_price
 FROM products 
 WHERE unit_price > 100 OR product_name = 'Chai';
 ```
-**Ответ**: 10 товаров (зависит от данных).  
-
 **Задание 3**:  
 > Заказы за 26.02.1998 с сортировкой по весу (`freight`).  
 ```sql
@@ -119,8 +115,6 @@ WHERE order_date = '1998-02-26'
 ORDER BY freight DESC 
 LIMIT 1;
 ```
-**Ответ**: `order_id = 10906` (самый тяжелый заказ).  
-
 **Задание 4**:  
 > Минимальный вес заказа сотрудника `employee_id = 1` за 26.02.1998.  
 ```sql
@@ -129,8 +123,6 @@ FROM orders
 WHERE order_date = '1998-02-26' 
   AND employee_id = 1;
 ```
-**Ответ**: `58.17` (примерное значение).  
-
 ---
 
 #### **6. Ключевые выводы**  
